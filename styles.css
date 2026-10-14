@@ -1,1 +1,31 @@
-/*  your css code here. If applicable */
+body {
+    background-color: #ccd5cc;
+    font-family: Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.wrapper {
+    width: 1100px;
+}
+
+.imageContainer img {
+    width: 500px;
+}
+
+table {
+    width: 1000px;
+    margin-top: 10px;
+}
+
+td {
+    vertical-align: middle;
+    padding: 6px;
+}
+
+td:nth-child(2) {
+    text-align: center;
+}
+
+td img {
+    width: 180px;
+}
